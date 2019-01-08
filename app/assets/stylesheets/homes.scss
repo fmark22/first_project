@@ -1,0 +1,188 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//Practice 01
+
+
+//----------------------------------------------------------------------
+
+//Practice02
+
+// * {
+//     box-sizing: border-box;
+// }
+
+// /* Create four equal columns that floats next to each other */
+// .column {
+//     float: left;
+//     width: 25%;
+//     padding: 20px;
+// }
+
+// /* Clear floats after the columns */
+// .row:after {
+//     content: "";
+//     display: table;
+//     clear: both;
+// }
+
+// /* On screens that are 992px wide or less, go from four columns to two columns */
+// @media screen and (max-width: 992px) {
+//     .column {
+//         width: 50%;
+//     }
+// }
+
+// /* On screens that are 750x wide or less, make the columns stack on top of each other instead of next to each other */
+// @media screen and (max-width: 750px) {
+//     .column {
+//         width: 20%;
+//     }
+// }
+
+
+// /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+// @media screen and (max-width: 600px) {
+//     .column {
+//         width: 100%;
+//     }
+// }
+
+//----------------------------------------------------------------------
+
+//Practice03
+
+// * {
+//     box-sizing: border-box;
+// }
+
+// /* Container for flexboxes */
+// .row {
+//     display: flex;
+//     flex-wrap: wrap;
+// }
+
+// /* Create four equal columns */
+// .column {
+//     flex: 25%;
+//     padding: 20px;
+// }
+
+// /* On screens that are 992px wide or less, go from four columns to two columns */
+// @media screen and (max-width: 992px) {
+//     .column {
+//         flex: 50%;
+//     }
+// }
+
+// /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+// @media screen and (max-width: 600px) {
+//     .row {
+//       flex-direction: column;
+//     }
+// }
+
+
+//----------------------------------------------------------------------
+
+//Practice04
+
+div.example {
+  background-color: skyblue;
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    display: none;
+  }
+}
+
+//----------------------------------------------------------------------
+
+//Practice05
+
+div.example1 {
+  background-color: lightgrey;
+  padding: 20px;
+}
+
+@media screen and (min-width: 601px) {
+  div.example1 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example1 {
+    font-size: 30px;
+  }
+}
+
+//----------------------------------------------------------------------
+
+
+// main {
+// 	min-height: calc(100vh - 5em - 7em);
+// }
+
+// /* Toggle checkbox to alternate between short/long content */
+// #contents:checked ~ p { display: none }
+
+// /* Basic styling */
+// body {
+// 	margin: 0;
+// 	font: 100%/1.5 Palatino Linotype, Palatino, serif;
+// }
+
+// h1 { margin: .5em 0 0; }
+
+// header { text-align: center; height: 3em; }
+
+// main, footer {
+// 	display: block;
+// 	padding: .5em calc(50% - 400px);
+// }
+
+// footer {
+// 	background: linear-gradient(#222, #444);
+// 	color: white;
+// 	height: 6em;
+// }
+
+// //----------------------------------------------------------------------
+
+
+// body {
+// 	display: flex;
+// 	flex-direction: column;
+// 	min-height: 100vh;
+// }
+
+// main {
+// 	flex: 1;
+// }
+
+// /* Toggle checkbox to alternate between short/long content */
+// #contents:checked ~ p { display: none }
+
+// /* Basic styling */
+// body {
+// 	margin: 0;
+// 	font: 100%/1.5 Baskerville, Palatino Linotype, Palatino, serif;
+// }
+
+// h1 { margin: .5em 0 0; }
+
+// header { text-align: center; height: 3em; }
+
+// main, footer {
+// 	display: block;
+// 	padding: .5em calc(50% - 400px);
+// }
+
+// footer {
+// 	background: linear-gradient(#222, #444);
+// 	color: white;
+// }
